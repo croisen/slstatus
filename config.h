@@ -68,7 +68,7 @@ static const struct arg args[] = {
 	{netspeed_tx, "[📶:%s↑ ", "wlp3s0"},
 	{netspeed_rx, "%s↓] ", "wlp3s0"},
     {wifi_perc, "[🌐:%s%%] ", "wlp3s0"},
-	{run_command, "[🔊:%s] ", "amixer sget Master | awk -F\"[][]\" '{print $2}' | tail -n1"},
+	{run_command, "[🔊:%s] ", "amixer -D pulse sget Master | awk -F\"[][]\" '{print $2}' | tail -n1"},
 	{cpu_perc, "[🖥:%s%%] ", NULL},
 	{ram_perc, "[📝:%s%%] ", NULL},
 	{ battery_perc, "[🔋:%s%%", "BAT1"},
