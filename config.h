@@ -72,12 +72,14 @@ static const char get_mut[] = "wpctl get-volume '@DEFAULT_SINK@' | grep 'MUTED'"
 static const struct arg args[] = {
 	/* function format                                  argument */
     //{ uptime, "[UPTIME: %s ]",                          NULL },
+    { netspeed_tx, "[: %3sB ⇧ /",                      "wlan0"},
+    { netspeed_rx, " %3sB ⇩]",                          "wlan0" },
     { battery_perc, "[: %3s%%",                        "BAT1" },
     { battery_state, "%s ]",                            "BAT1" },
     { run_command, "[󰕾: %3s",                           get_vol },
     { run_command, "%-2s ]",                            get_mut },
-    { cpu_perc, "[: %3s%% ]",                          NULL },
-    { ram_perc, "[🖳: %3s%% ]",                          NULL },
-    //{ swap_perc, "[: %3s%% ]",                         NULL },
+    { cpu_perc, "[CPU: %3s%% ]",                          NULL },
+    { ram_perc, "[RAM: %3s%% ]",                          NULL },
+    { swap_perc, "[SWP: %3s%% ]",                         NULL },
 	{ datetime, "[: %s ]",                             "%F %T" },
 };
