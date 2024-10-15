@@ -7,9 +7,9 @@ only issuing the minimum of system calls required.
 
 Patches
 -------
-[slstatus-alsa-4bd78c9.patch](https://tools.suckless.org/slstatus/patches/alsa/slstatus-alsa-4bd78c9.patch)
-[slstatus-alsa-mute-1.0.diff](https://tools.suckless.org/slstatus/patches/alsa/slstatus-alsa-mute-1.0.diff)
-[slstatus-signals-1.0.patch](https://tools.suckless.org/slstatus/patches/signals/slstatus-signals-1.0.patch)
+-   [slstatus-alsa-4bd78c9.patch](https://tools.suckless.org/slstatus/patches/alsa/slstatus-alsa-4bd78c9.patch)
+-   [slstatus-alsa-mute-1.0.diff](https://tools.suckless.org/slstatus/patches/alsa/slstatus-alsa-mute-1.0.diff)
+-   [slstatus-signals-1.0.patch](https://tools.suckless.org/slstatus/patches/signals/slstatus-signals-1.0.patch)
 
 Features
 --------
